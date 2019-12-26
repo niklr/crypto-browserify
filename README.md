@@ -26,4 +26,9 @@ if (typeof module != 'undefined') {
 }
 ```
 
-4. browserify main.js -o crypto-browserify.js
+4. browserify -s cryptoBrowserify main.js -o crypto-browserify.js
+
+Switch to your project
+
+1. npm install --save github:niklr/crypto-browserify
+2. import * as cryptoBrowserify from 'crypto-browserify';
